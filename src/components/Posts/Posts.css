@@ -1,0 +1,146 @@
+.posts {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    min-width: 70%;
+}
+
+ /* .main-posts {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+   border: 1px solid black;
+   
+}  */
+
+
+
+.rowPost{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: #eeeeee;
+    border-radius: 0 0 10px 10px;
+}
+
+.rowPost::-webkit-scrollbar{
+    display: none;
+}
+
+.row-container {
+    width: 290px;
+    height: 290px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    border-radius: 5px;
+   background-color: #fff;
+    text-align: left;
+    padding-left: 2.5em;
+    cursor: pointer;
+    
+}
+
+.based {
+    margin: 1px auto;
+    background-color: #eeeeee;
+    padding-top: 20px;
+    border-radius: 10px 10px 0 0;
+    justify-content: first baseline;
+    display: flex;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+.fresh {
+    justify-content: first baseline;
+    display: flex;
+    padding-left: 1em;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+.row-posts .row-container img {
+     /* height: 80%; */
+     max-width: 100%;
+     max-height: 55%;
+     min-height: 40%;
+     min-width: 45%;
+}
+
+.posts .box-container img {
+    /* height: 80%; */
+   max-width: 100%;
+   max-height: 55%;
+   min-height: 40%;
+   min-width: 45%;
+
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11em;
+    height: 11em;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    min-height: 100%;
+    max-height: 100%;
+   
+}
+
+.box-container {
+    width: 290px;
+    height: 290px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    border-radius: 5px;
+    padding-left: 2.5em;
+    text-align: left;
+    cursor: pointer;
+}
+
+.detials-box {
+    width: 270px;
+    height: 35%;
+    /* margin-left: 2em; */
+    padding-right: 0.5rem;
+}
+
+.detials-box .price {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.detials-box .category {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.date {
+    font-size: smaller;
+    font-weight: 200;
+    text-align: right;
+}
+.fav-container {
+}
+.fav-icon {
+    padding-left: 1rem ;
+    margin-top: 1rem;
+    position: static;
+}
+
+.detials-box .name {
+    color: #000;
+    font-weight: 600;
+}

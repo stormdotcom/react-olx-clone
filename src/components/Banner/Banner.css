@@ -1,0 +1,38 @@
+.responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99vw;
+    height: 10.2em;
+  }
+
+  .suggestions {
+      margin-top: 5em;
+  }
+  .categories {
+      font-weight: bolder;
+  }
+  
+  .main {
+        text-align: center;
+  }
+  .columns  {
+    margin: 4px 1px;
+    margin-bottom: 8px;
+    font-size: small;
+    background-color: #eefdff;
+    border-radius: 10px;
+    padding: 2px 4px;
+    transition: all 100ms ease-in;
+  }
+
+  .columns:hover {
+      color:#00a49f;;
+      cursor: pointer;
+      
+  }
+
+ .main .categories .columns  {
+        text-decoration: 1px solid #002f34;
+        cursor: pointer;
+  }

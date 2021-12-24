@@ -1,0 +1,33 @@
+.create-product {
+    border: 0.1px solid #bdbdbd;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.uploadImage {
+    cursor: pointer;
+    border: 1px solid black;
+    width: 25px;
+    margin: 1px auto;
+
+    border-radius: 5px;
+}
+.uploadSection p{
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0, 0.6)
+}
+button {
+    background-color: #002f34;
+    color: #fff;
+    margin-top: 2em;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.createInput {
+    margin: 100px 1px;
+    padding: 10px 5px;
+}
+.create-product img {
+    width: 100px;
+}

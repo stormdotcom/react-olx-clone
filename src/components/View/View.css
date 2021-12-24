@@ -1,0 +1,47 @@
+.viewParentDiv {
+    margin-top: 7em;
+    display: flex;
+   
+  }
+  .viewParentDiv .imageShow {
+    padding: 30px;
+    width: 60vw;
+  }
+.viewParentDiv .imageShow img {
+    width: 40vw;
+    height: 60vh;
+  }
+
+  .productDetails {
+      margin: 2em;
+
+  }
+  .sellerDetails {
+    margin: 2em;
+  }
+  .details{
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 25%;
+  }
+
+  .productDetails .product-price {
+    font-size: 4em;
+    font-weight: 800;
+
+  }
+
+  .productDetails  .product-name {
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+ .sellerDetails .user-name {
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+
+  .sellerDetails .user-phone {
+    font-size: 1.4em;
+    font-weight: 400;
+  }

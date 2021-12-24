@@ -1,0 +1,52 @@
+.footer {
+    width: 100%;
+    text-align: start;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.mainFooter {
+    background-color: #ebeeef;
+}
+
+ img {
+    margin-top: 25px;
+    width: 80px;
+}
+
+.bottom-container {
+    background-color: #002f34;
+    font-size: small;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+.other span {
+    word-spacing:1em;
+}
+
+.footer .list-items {
+    font-size: 12px;
+    cursor: pointer;
+    color:#002f34;
+    line-height: 1.7rem;
+}
+.list-items:hover {
+    color:#012b30;
+}
+.footer .title {
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.logos .playstore {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}   
+.play-store, .app-store {
+    margin: 1px 13px;
+    height: 17px;
+}
